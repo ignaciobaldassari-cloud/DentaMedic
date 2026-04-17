@@ -70,6 +70,12 @@
         .fade-in { opacity: 0; transform: translateY(28px); transition: opacity 0.65s ease, transform 0.65s ease; }
         .fade-in.visible { opacity: 1; transform: translateY(0); }
 
+        @media (max-width: 768px) {
+            #servicios, #nosotros, #tecnologia, #por-que, #financiamiento, #galeria, #ubicacion, #opiniones { padding: 56px 0; }
+            #cta-banner { padding: 52px 0; }
+            .section-header { margin-bottom: 36px; }
+        }
+
         /* ========== NAVIGATION ========== */
         nav {
             position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
